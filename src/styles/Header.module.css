@@ -1,0 +1,38 @@
+/* src/styles/Header.module.css */
+.container {
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  background-color: #2E5BBB;
+  color: white;
+  height: 4rem;
+  width: 100%;
+}
+
+.logo {
+  max-height: 4rem;
+  height: auto;
+  width: auto;
+}
+
+.title {
+  flex: 1;
+  position: relative;
+  right: 75px;            
+  text-align: center;  
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+.login {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.login:hover {
+  text-decoration: underline;
+}

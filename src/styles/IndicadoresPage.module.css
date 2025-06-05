@@ -1,0 +1,163 @@
+/* CampusSelector.module.css */
+
+.container {
+  height: 100vh;
+  background-color: #f0f2f5;
+  padding: 1rem;
+}
+
+.divFirst {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 0.5rem;
+  user-select: none;
+}
+
+.select {
+  width: 30vh;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  background-color: #fafafa;
+  color: #111111;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.select:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+.divSecond {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+
+.title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.divYearFilter {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  position: absolute;
+  top: 170px;
+  right: 15px;
+}
+
+.inputYear {
+  width: 5rem;
+  padding: 0.25rem;
+  font-size: 1rem;
+}
+
+.btnPesquisar {
+  padding: 0.5rem 1rem;
+  background-color: #357edd;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  
+}
+
+.btnPesquisar:hover {
+  background-color: #285bb5;
+}
+
+.btnEditarIndicadores {
+  background-color: #3b82f6;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  position: absolute;
+  left: 15px;
+  top: 200px;
+}
+
+.btnEditarIndices:hover {
+  background-color: #2563eb;
+}
+
+.btnNovoIndicador {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  position: absolute;
+  left: 150px;
+  top: 200px;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 150px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.cardHeader {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 0.75rem;
+}
+
+.cardValue {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #4f46e5;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.cardFooter {
+  font-size: 0.875rem;
+  color: #6b7280;
+  text-align: center;
+}
+
+.emptyMessage {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: #555555;
+  font-size: 1rem;
+  padding: 2rem 0;
+}

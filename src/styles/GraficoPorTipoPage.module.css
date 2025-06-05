@@ -1,0 +1,75 @@
+/* src/styles/GraficoPorTipoPage.module.css */
+
+.container {
+  margin: 0 auto;
+  padding: 24px;
+  background-color: #f0f2f5;
+  border-radius: 8px;
+}
+
+.dateFilter {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-end;
+  margin-bottom: 1rem;
+}
+
+.labelDate {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+}
+
+.labelDate .react-datepicker-wrapper {
+  margin-top: 0.25rem;
+}
+
+.btnPesquisar,
+.btnExportar {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color: #357edd;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+.btnExportar {
+  background-color: #388e3c;
+}
+.btnVoltar {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #3b4cca;
+  margin-bottom: 16px;
+}
+
+.btnPesquisar:hover,
+.btnExportar:hover {
+  opacity: 0.9;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+
+.chartWrapper {
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  height: 100vh;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.emptyMessage {
+  text-align: center;
+  color: #888;
+  padding: 40px 0;
+}

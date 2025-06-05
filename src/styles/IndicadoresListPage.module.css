@@ -1,0 +1,102 @@
+/* src/styles/IndicadoresListPage.module.css */
+
+.container {
+  margin: 0 auto;
+  padding: 24px;
+  background-color: #f0f2f5;
+  border-radius: 8px;
+}
+
+.filtroTipoContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.labelFiltro {
+  margin-right: 8px;
+  font-weight: bold;
+}
+
+.selectFiltro {
+  padding: 4px 8px;
+  font-size: 14px;
+}
+
+.btnVoltar {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  color: #3b82f6;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+}
+
+.emptyMessage {
+  text-align: center;
+  color: #666;
+  padding: 40px 0;
+}
+
+.tableWrapper {
+  overflow-x: auto;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.tabela {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabela th,
+.tabela td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+.tabela th {
+  background-color: #f0f0f0;
+  font-weight: 600;
+}
+
+.colAcoes {
+  display: flex;
+  gap: 8px;
+
+}
+
+.btnAlterar {
+  background-color: #22c55e;
+  color: #fff;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.btnAlterar:hover {
+  background-color: #16a34a;
+}
+
+.btnExcluir {
+  background-color: #ef4444;
+  color: #fff;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.btnExcluir:hover {
+  background-color: #dc2626;
+}

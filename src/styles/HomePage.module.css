@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;         
+  background-color: #f0f2f5;
+  padding: 1rem;
+}
+
+.main {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333333;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 1.5rem auto;
+  max-width: 180px;
+}
+
+.main select {
+  border: 1px solid #D1D5DB;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  width: 44vh;
+  font-size: 1rem;
+  margin-top: 5vh;
+  background-color: #FFF;
+  color: #111;
+  transition: border-color 0.2s;
+  margin-bottom: 5vh;
+
+}
+
+.button { 
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+}
+
+.buttonDisabled {
+  background-color: #D1D5DB;
+  color: #6B7280;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.buttonEnabled {
+  background-color: #4096ff;
+  color: #ffffff;
+}
+
+.buttonEnabled:hover {
+  background-color: #1d6de0;
+}
